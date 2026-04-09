@@ -77,7 +77,6 @@ collections:
   - name: https://github.com/openclaw/openclaw-ansible.git
     type: git
     version: main
-EOF
 
 # Install collection
 ansible-galaxy collection install -r "$REQUIREMENTS_FILE" --force
